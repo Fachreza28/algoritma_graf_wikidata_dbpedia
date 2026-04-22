@@ -4,7 +4,7 @@ Proyek ini merupakan tugas besar untuk mata kuliah **Graf** yang berfokus pada i
 
 ---
 
-## 👥 Tim Penyusun
+## 👥 Anggota
 * **Fachreza Aptadhi Kurniawan** (5026231135)
 * **Sultan Alamsyah Lintang Mubarok** (5026231188)
 
