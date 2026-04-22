@@ -73,3 +73,8 @@ MERGE (co:Country {name: row.country})
 MERGE (cl:Club {name: row.club})
 MERGE (a)-[:FROM]->(co)
 MERGE (a)-[:PLAYS_FOR]->(cl);
+
+MATCH (a:Athlete)-[r1:PLAYS_FOR]->(cl:Club)
+MATCH (a)-[r2:FROM]->(co:Country)
+RETURN a, r1, cl, r2, co
+LIMIT 1000;
